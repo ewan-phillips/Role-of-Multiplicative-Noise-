@@ -1,4 +1,4 @@
-# Role-of-Multiplicative-Noise
+# Role of Multiplicative Noise
 
 Multiplicative noise (or parametric noise) is ubiquitous in real world systems and (in contrast to additive noise) is known to play an important role in state transitions, including tipping points where hopping is induced from one attractor to another. The code here is for the study of the effects of parametric (multiplicative) noise in simple models. Scale parameters are used to study the behaviour analytically. It is based on the paper "The stabilizing role of multiplicative noise in non-confining potentials", E. T. Phillips, B. Lindner, H. Kantz, 2025.
 
