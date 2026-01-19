@@ -297,7 +297,7 @@ def SDE_ev(om, D1, D2, T, f, g, dt=0.001, xinit=10,
 
 @jit(nopython=True) 
 def SDE_ev_strat(om, D1, D2, T, f, g, dt=0.001, xinit=10, n=0, m=1, osc=False, steps=1):
-    '''Show evolution of SDE considering Stratonovich interpretation'''
+    """Show evolution of SDE considering Stratonovich interpretation"""
 
     n_ = int(T / dt)  
     D1_, D2_ = np.sqrt(2*D1), np.sqrt(2*D2)
